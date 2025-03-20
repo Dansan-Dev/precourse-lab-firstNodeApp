@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 function greet(namePassedIn) {
-  return 'Welcome to SALT, ';
+  return 'Welcome to SALT, ' + namePassedIn;
 }
 
 // Main program
